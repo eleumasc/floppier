@@ -1,0 +1,17 @@
+title: "Floppier"
+description: >
+    Have you ever felt nostalgic for old, mechanical storage systems?
+
+    Welcome to Floppier, the 3.5-inches online storage service,
+    because 1.44MB are never too few!
+
+tags: ["web", "idor", "command injection", "blind"]
+points: 0.5
+flag: "flg{ZjpczHt3uEWYnxY4}"
+
+network_info:
+    hostname: floppier.seclab.dais.unive.it
+    port: 443
+    # Port exposed by the container
+    container_port: 80
+
