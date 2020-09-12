@@ -29,7 +29,7 @@ Then, we take a look at the CSV file generated from the suspicious beta feature 
  - size: the size (in bytes) of the file
  - integrity: the MD5 digest of the file
 
-In no time, we notice that the beta feature "Download file list" allows to download the file list of an arbitrary user by just changing the value of the query parameter "userid".
+In no time, we notice that the beta feature "Download file list" allows one to download the file list of an arbitrary user by just changing the value of the query parameter "userid".
 
 Since time is money, we write a Python script which does the dirty work for us, by downloading the file lists of all the users up to ours (the initial value of "userid" is the ID of our user profile), with the hope of finding something interesting.
 
